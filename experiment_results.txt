@@ -1,0 +1,573 @@
+Research Project: Memory Access Patterns
+Computer: Intel Core i3-1215U
+Programming Language: Java (JDK 21)
+
+EXPERIMENT RUN 1
+[Array size: 16384
+Array memory: 0.06 MB
+
+Sequential measurements:
+Individual results:
+Run 1: 0.291 ns/access
+Run 2: 0.534 ns/access
+Run 3: 0.544 ns/access
+Run 4: 0.636 ns/access
+Run 5: 0.545 ns/access
+Run 6: 0.354 ns/access
+Run 7: 0.413 ns/access
+Run 8: 0.511 ns/access
+Run 9: 0.463 ns/access
+Minimum: 0.291 ns/access
+Maximum: 0.636 ns/access
+Median: 0.511 ns/access
+Mean: 0.477 ns/access
+Std. deviation: 0.108 ns/access
+
+Random measurements:
+Individual results:
+Run 1: 0.692 ns/access
+Run 2: 0.951 ns/access
+Run 3: 1.381 ns/access
+Run 4: 0.808 ns/access
+Run 5: 0.699 ns/access
+Run 6: 0.632 ns/access
+Run 7: 0.407 ns/access
+Run 8: 0.699 ns/access
+Run 9: 0.703 ns/access
+Minimum: 0.407 ns/access
+Maximum: 1.381 ns/access
+Median: 0.699 ns/access
+Mean: 0.775 ns/access
+Std. deviation: 0.269 ns/access
+
+Array size: 262144
+Array memory: 1.00 MB
+
+Sequential measurements:
+Individual results:
+Run 1: 0.318 ns/access
+Run 2: 0.321 ns/access
+Run 3: 0.264 ns/access
+Run 4: 0.472 ns/access
+Run 5: 0.269 ns/access
+Run 6: 0.442 ns/access
+Run 7: 0.340 ns/access
+Run 8: 0.305 ns/access
+Run 9: 0.319 ns/access
+Minimum: 0.264 ns/access
+Maximum: 0.472 ns/access
+Median: 0.319 ns/access
+Mean: 0.339 ns/access
+Std. deviation: 0.072 ns/access
+
+Random measurements:
+Individual results:
+Run 1: 0.678 ns/access
+Run 2: 0.598 ns/access
+Run 3: 0.692 ns/access
+Run 4: 0.625 ns/access
+Run 5: 0.664 ns/access
+Run 6: 0.814 ns/access
+Run 7: 0.591 ns/access
+Run 8: 0.610 ns/access
+Run 9: 0.889 ns/access
+Minimum: 0.591 ns/access
+Maximum: 0.889 ns/access
+Median: 0.664 ns/access
+Mean: 0.685 ns/access
+Std. deviation: 0.103 ns/access
+
+Array size: 1048576
+Array memory: 4.00 MB
+
+Sequential measurements:
+Individual results:
+Run 1: 0.608 ns/access
+Run 2: 1.215 ns/access
+Run 3: 1.672 ns/access
+Run 4: 0.555 ns/access
+Run 5: 1.065 ns/access
+Run 6: 1.407 ns/access
+Run 7: 1.495 ns/access
+Run 8: 1.300 ns/access
+Run 9: 1.627 ns/access
+Minimum: 0.555 ns/access
+Maximum: 1.672 ns/access
+Median: 1.300 ns/access
+Mean: 1.216 ns/access
+Std. deviation: 0.407 ns/access
+
+Random measurements:
+Individual results:
+Run 1: 4.519 ns/access
+Run 2: 12.195 ns/access
+Run 3: 9.365 ns/access
+Run 4: 3.282 ns/access
+Run 5: 9.461 ns/access
+Run 6: 7.182 ns/access
+Run 7: 6.671 ns/access
+Run 8: 7.859 ns/access
+Run 9: 6.573 ns/access
+Minimum: 3.282 ns/access
+Maximum: 12.195 ns/access
+Median: 7.182 ns/access
+Mean: 7.456 ns/access
+Std. deviation: 2.688 ns/access
+
+Array size: 4194304
+Array memory: 16.00 MB
+
+Sequential measurements:
+Individual results:
+Run 1: 0.742 ns/access
+Run 2: 0.848 ns/access
+Run 3: 0.835 ns/access
+Run 4: 0.820 ns/access
+Run 5: 0.826 ns/access
+Run 6: 0.781 ns/access
+Run 7: 0.743 ns/access
+Run 8: 0.837 ns/access
+Run 9: 0.802 ns/access
+Minimum: 0.742 ns/access
+Maximum: 0.848 ns/access
+Median: 0.820 ns/access
+Mean: 0.804 ns/access
+Std. deviation: 0.040 ns/access
+
+Random measurements:
+Individual results:
+Run 1: 9.086 ns/access
+Run 2: 10.279 ns/access
+Run 3: 8.726 ns/access
+Run 4: 9.273 ns/access
+Run 5: 7.150 ns/access
+Run 6: 6.185 ns/access
+Run 7: 6.073 ns/access
+Run 8: 7.245 ns/access
+Run 9: 6.238 ns/access
+Minimum: 6.073 ns/access
+Maximum: 10.279 ns/access
+Median: 7.245 ns/access
+Mean: 7.806 ns/access
+Std. deviation: 1.565 ns/access
+
+Array size: 8388608
+Array memory: 32.00 MB
+
+Sequential measurements:
+Individual results:
+Run 1: 0.842 ns/access
+Run 2: 0.853 ns/access
+Run 3: 0.792 ns/access
+Run 4: 0.850 ns/access
+Run 5: 0.807 ns/access
+Run 6: 0.794 ns/access
+Run 7: 0.763 ns/access
+Run 8: 0.898 ns/access
+Run 9: 0.950 ns/access
+Minimum: 0.763 ns/access
+Maximum: 0.950 ns/access
+Median: 0.842 ns/access
+Mean: 0.839 ns/access
+Std. deviation: 0.058 ns/access
+
+Random measurements:
+Individual results:
+Run 1: 8.885 ns/access
+Run 2: 9.109 ns/access
+Run 3: 8.763 ns/access
+Run 4: 8.666 ns/access
+Run 5: 8.935 ns/access
+Run 6: 8.802 ns/access
+Run 7: 9.101 ns/access
+Run 8: 10.528 ns/access
+Run 9: 11.028 ns/access
+Minimum: 8.666 ns/access
+Maximum: 11.028 ns/access
+Median: 8.935 ns/access
+Mean: 9.313 ns/access
+Std. deviation: 0.852 ns/access
+
+Experiment completed.
+
+Process finished with exit code 0]
+
+EXPERIMENT RUN 2
+[Array size: 16384
+Array memory: 0.06 MB
+
+Sequential measurements:
+Individual results:
+Run 1: 0.263 ns/access
+Run 2: 0.254 ns/access
+Run 3: 0.255 ns/access
+Run 4: 0.254 ns/access
+Run 5: 0.261 ns/access
+Run 6: 0.252 ns/access
+Run 7: 0.254 ns/access
+Run 8: 0.253 ns/access
+Run 9: 0.253 ns/access
+Minimum: 0.252 ns/access
+Maximum: 0.263 ns/access
+Median: 0.254 ns/access
+Mean: 0.255 ns/access
+Std. deviation: 0.004 ns/access
+
+Random measurements:
+Individual results:
+Run 1: 0.269 ns/access
+Run 2: 0.268 ns/access
+Run 3: 0.272 ns/access
+Run 4: 0.269 ns/access
+Run 5: 0.269 ns/access
+Run 6: 0.264 ns/access
+Run 7: 0.263 ns/access
+Run 8: 0.263 ns/access
+Run 9: 0.265 ns/access
+Minimum: 0.263 ns/access
+Maximum: 0.272 ns/access
+Median: 0.268 ns/access
+Mean: 0.267 ns/access
+Std. deviation: 0.003 ns/access
+
+Array size: 262144
+Array memory: 1.00 MB
+
+Sequential measurements:
+Individual results:
+Run 1: 0.265 ns/access
+Run 2: 0.276 ns/access
+Run 3: 0.261 ns/access
+Run 4: 0.294 ns/access
+Run 5: 0.263 ns/access
+Run 6: 0.287 ns/access
+Run 7: 0.266 ns/access
+Run 8: 0.287 ns/access
+Run 9: 0.308 ns/access
+Minimum: 0.261 ns/access
+Maximum: 0.308 ns/access
+Median: 0.276 ns/access
+Mean: 0.278 ns/access
+Std. deviation: 0.016 ns/access
+
+Random measurements:
+Individual results:
+Run 1: 0.441 ns/access
+Run 2: 0.458 ns/access
+Run 3: 0.486 ns/access
+Run 4: 0.555 ns/access
+Run 5: 0.566 ns/access
+Run 6: 0.510 ns/access
+Run 7: 0.457 ns/access
+Run 8: 0.451 ns/access
+Run 9: 0.679 ns/access
+Minimum: 0.441 ns/access
+Maximum: 0.679 ns/access
+Median: 0.486 ns/access
+Mean: 0.511 ns/access
+Std. deviation: 0.077 ns/access
+
+Array size: 1048576
+Array memory: 4.00 MB
+
+Sequential measurements:
+Individual results:
+Run 1: 0.855 ns/access
+Run 2: 0.792 ns/access
+Run 3: 0.963 ns/access
+Run 4: 1.940 ns/access
+Run 5: 1.473 ns/access
+Run 6: 2.111 ns/access
+Run 7: 2.047 ns/access
+Run 8: 1.210 ns/access
+Run 9: 1.248 ns/access
+Minimum: 0.792 ns/access
+Maximum: 2.111 ns/access
+Median: 1.248 ns/access
+Mean: 1.404 ns/access
+Std. deviation: 0.517 ns/access
+
+Random measurements:
+Individual results:
+Run 1: 8.543 ns/access
+Run 2: 3.228 ns/access
+Run 3: 13.959 ns/access
+Run 4: 6.369 ns/access
+Run 5: 5.680 ns/access
+Run 6: 3.762 ns/access
+Run 7: 8.039 ns/access
+Run 8: 9.318 ns/access
+Run 9: 3.796 ns/access
+Minimum: 3.228 ns/access
+Maximum: 13.959 ns/access
+Median: 6.369 ns/access
+Mean: 6.966 ns/access
+Std. deviation: 3.434 ns/access
+
+Array size: 4194304
+Array memory: 16.00 MB
+
+Sequential measurements:
+Individual results:
+Run 1: 0.707 ns/access
+Run 2: 0.768 ns/access
+Run 3: 0.684 ns/access
+Run 4: 0.761 ns/access
+Run 5: 0.952 ns/access
+Run 6: 0.657 ns/access
+Run 7: 0.590 ns/access
+Run 8: 0.571 ns/access
+Run 9: 0.541 ns/access
+Minimum: 0.541 ns/access
+Maximum: 0.952 ns/access
+Median: 0.684 ns/access
+Mean: 0.692 ns/access
+Std. deviation: 0.126 ns/access
+
+Random measurements:
+Individual results:
+Run 1: 12.787 ns/access
+Run 2: 10.314 ns/access
+Run 3: 11.628 ns/access
+Run 4: 11.770 ns/access
+Run 5: 11.095 ns/access
+Run 6: 8.822 ns/access
+Run 7: 7.226 ns/access
+Run 8: 7.428 ns/access
+Run 9: 8.095 ns/access
+Minimum: 7.226 ns/access
+Maximum: 12.787 ns/access
+Median: 10.314 ns/access
+Mean: 9.907 ns/access
+Std. deviation: 2.065 ns/access
+
+Array size: 8388608
+Array memory: 32.00 MB
+
+Sequential measurements:
+Individual results:
+Run 1: 0.516 ns/access
+Run 2: 0.547 ns/access
+Run 3: 0.514 ns/access
+Run 4: 0.860 ns/access
+Run 5: 0.829 ns/access
+Run 6: 0.871 ns/access
+Run 7: 0.743 ns/access
+Run 8: 0.835 ns/access
+Run 9: 0.771 ns/access
+Minimum: 0.514 ns/access
+Maximum: 0.871 ns/access
+Median: 0.771 ns/access
+Mean: 0.721 ns/access
+Std. deviation: 0.152 ns/access
+
+Random measurements:
+Individual results:
+Run 1: 9.023 ns/access
+Run 2: 9.395 ns/access
+Run 3: 8.665 ns/access
+Run 4: 9.000 ns/access
+Run 5: 8.917 ns/access
+Run 6: 8.900 ns/access
+Run 7: 9.043 ns/access
+Run 8: 8.932 ns/access
+Run 9: 8.990 ns/access
+Minimum: 8.665 ns/access
+Maximum: 9.395 ns/access
+Median: 8.990 ns/access
+Mean: 8.985 ns/access
+Std. deviation: 0.190 ns/access
+
+Experiment completed.
+
+Process finished with exit code 0]
+
+EXPERIMENT RUN 3
+[Array size: 16384
+Array memory: 0.06 MB
+
+Sequential measurements:
+Individual results:
+Run 1: 0.339 ns/access
+Run 2: 0.260 ns/access
+Run 3: 0.255 ns/access
+Run 4: 0.256 ns/access
+Run 5: 0.252 ns/access
+Run 6: 0.254 ns/access
+Run 7: 0.298 ns/access
+Run 8: 0.463 ns/access
+Run 9: 0.257 ns/access
+Minimum: 0.252 ns/access
+Maximum: 0.463 ns/access
+Median: 0.257 ns/access
+Mean: 0.293 ns/access
+Std. deviation: 0.070 ns/access
+
+Random measurements:
+Individual results:
+Run 1: 0.268 ns/access
+Run 2: 0.268 ns/access
+Run 3: 0.269 ns/access
+Run 4: 0.268 ns/access
+Run 5: 0.265 ns/access
+Run 6: 0.265 ns/access
+Run 7: 0.509 ns/access
+Run 8: 0.538 ns/access
+Run 9: 0.266 ns/access
+Minimum: 0.265 ns/access
+Maximum: 0.538 ns/access
+Median: 0.268 ns/access
+Mean: 0.324 ns/access
+Std. deviation: 0.113 ns/access
+
+Array size: 262144
+Array memory: 1.00 MB
+
+Sequential measurements:
+Individual results:
+Run 1: 0.323 ns/access
+Run 2: 0.294 ns/access
+Run 3: 0.283 ns/access
+Run 4: 0.435 ns/access
+Run 5: 0.448 ns/access
+Run 6: 0.343 ns/access
+Run 7: 0.283 ns/access
+Run 8: 0.306 ns/access
+Run 9: 0.291 ns/access
+Minimum: 0.283 ns/access
+Maximum: 0.448 ns/access
+Median: 0.306 ns/access
+Mean: 0.334 ns/access
+Std. deviation: 0.064 ns/access
+
+Random measurements:
+Individual results:
+Run 1: 0.685 ns/access
+Run 2: 0.658 ns/access
+Run 3: 1.175 ns/access
+Run 4: 1.343 ns/access
+Run 5: 1.137 ns/access
+Run 6: 0.677 ns/access
+Run 7: 0.701 ns/access
+Run 8: 0.637 ns/access
+Run 9: 0.775 ns/access
+Minimum: 0.637 ns/access
+Maximum: 1.343 ns/access
+Median: 0.701 ns/access
+Mean: 0.865 ns/access
+Std. deviation: 0.273 ns/access
+
+Array size: 1048576
+Array memory: 4.00 MB
+
+Sequential measurements:
+Individual results:
+Run 1: 0.570 ns/access
+Run 2: 0.522 ns/access
+Run 3: 0.626 ns/access
+Run 4: 0.558 ns/access
+Run 5: 0.498 ns/access
+Run 6: 0.431 ns/access
+Run 7: 0.453 ns/access
+Run 8: 0.430 ns/access
+Run 9: 0.465 ns/access
+Minimum: 0.430 ns/access
+Maximum: 0.626 ns/access
+Median: 0.498 ns/access
+Mean: 0.506 ns/access
+Std. deviation: 0.068 ns/access
+
+Random measurements:
+Individual results:
+Run 1: 2.880 ns/access
+Run 2: 3.980 ns/access
+Run 3: 5.251 ns/access
+Run 4: 1.983 ns/access
+Run 5: 3.533 ns/access
+Run 6: 3.370 ns/access
+Run 7: 1.828 ns/access
+Run 8: 3.156 ns/access
+Run 9: 1.834 ns/access
+Minimum: 1.828 ns/access
+Maximum: 5.251 ns/access
+Median: 3.156 ns/access
+Mean: 3.090 ns/access
+Std. deviation: 1.128 ns/access
+
+Array size: 4194304
+Array memory: 16.00 MB
+
+Sequential measurements:
+Individual results:
+Run 1: 0.632 ns/access
+Run 2: 0.733 ns/access
+Run 3: 0.588 ns/access
+Run 4: 0.671 ns/access
+Run 5: 0.677 ns/access
+Run 6: 0.928 ns/access
+Run 7: 0.585 ns/access
+Run 8: 0.692 ns/access
+Run 9: 0.614 ns/access
+Minimum: 0.585 ns/access
+Maximum: 0.928 ns/access
+Median: 0.671 ns/access
+Mean: 0.680 ns/access
+Std. deviation: 0.105 ns/access
+
+Random measurements:
+Individual results:
+Run 1: 10.589 ns/access
+Run 2: 9.424 ns/access
+Run 3: 10.044 ns/access
+Run 4: 10.735 ns/access
+Run 5: 7.529 ns/access
+Run 6: 7.605 ns/access
+Run 7: 8.621 ns/access
+Run 8: 8.244 ns/access
+Run 9: 7.809 ns/access
+Minimum: 7.529 ns/access
+Maximum: 10.735 ns/access
+Median: 8.621 ns/access
+Mean: 8.955 ns/access
+Std. deviation: 1.276 ns/access
+
+Array size: 8388608
+Array memory: 32.00 MB
+
+Sequential measurements:
+Individual results:
+Run 1: 0.797 ns/access
+Run 2: 0.813 ns/access
+Run 3: 0.710 ns/access
+Run 4: 0.817 ns/access
+Run 5: 0.766 ns/access
+Run 6: 0.720 ns/access
+Run 7: 0.709 ns/access
+Run 8: 0.791 ns/access
+Run 9: 0.807 ns/access
+Minimum: 0.709 ns/access
+Maximum: 0.817 ns/access
+Median: 0.791 ns/access
+Mean: 0.770 ns/access
+Std. deviation: 0.046 ns/access
+
+Random measurements:
+Individual results:
+Run 1: 9.267 ns/access
+Run 2: 8.849 ns/access
+Run 3: 9.230 ns/access
+Run 4: 8.956 ns/access
+Run 5: 9.944 ns/access
+Run 6: 8.990 ns/access
+Run 7: 8.866 ns/access
+Run 8: 9.190 ns/access
+Run 9: 9.688 ns/access
+Minimum: 8.849 ns/access
+Maximum: 9.944 ns/access
+Median: 9.190 ns/access
+Mean: 9.220 ns/access
+Std. deviation: 0.376 ns/access
+
+Experiment completed.
+
+Process finished with exit code 0]
